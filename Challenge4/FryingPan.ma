@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: FryingPan.ma
-//Last modified: Tue, Oct 03, 2023 02:36:37 PM
+//Last modified: Tue, Oct 03, 2023 03:54:09 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.1.1";
@@ -10,22 +10,23 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "8C08C98A-4D98-ECA2-36E8-4193C25EE75C";
+fileInfo "UUID" "106B19E9-4B0D-05A1-B102-12968A5C57B8";
 createNode transform -s -n "persp";
 	rename -uid "A0DE1DFF-47C3-2EE5-459B-3AA0D732D7E3";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -2.5253173870959467 3.5726815986085474 3.1143562533907279 ;
-	setAttr ".r" -type "double3" -26.28155762190914 -48.858305545757275 9.1850411330522284e-14 ;
-	setAttr ".rpt" -type "double3" 5.5548529808501357e-17 2.3344683287796741e-15 -4.4988756833936727e-15 ;
+	setAttr ".t" -type "double3" 6.2694168004452031 1.9419517639170569 0.039853764552329807 ;
+	setAttr ".r" -type "double3" -7.6971966380972132 89.5633939102634 -4.695614505836671e-12 ;
+	setAttr ".rp" -type "double3" 6.9388939039072284e-18 0 8.8817841970012523e-16 ;
+	setAttr ".rpt" -type "double3" 4.6817742396447808e-16 1.6582902483105265e-15 -6.0798654100848065e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "86589D5A-4A7A-EEB9-8226-518232992C48";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 5.2793464602589406;
+	setAttr ".coi" 5.2776250450781834;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 1.0394963026046744 1.2350788116455118 -1.1920927400765891e-07 ;
+	setAttr ".tp" -type "double3" 1.0394963026046753 1.2350788116455078 -1.1920928821851362e-07 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "7AD3D600-48C6-1657-11D2-92AD2F6CA9FF";
