@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: HeadRetopo.ma
-//Last modified: Fri, Oct 27, 2023 09:45:22 AM
+//Last modified: Fri, Oct 27, 2023 09:47:54 AM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.1.1";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "2C695FC8-41BB-8A50-BCAD-46AB04687534";
+fileInfo "UUID" "01146453-458F-EB26-AF4D-4C8CB48C18DF";
 createNode transform -n "Group12208";
 	rename -uid "47472D18-4331-1CF7-FBF6-D1B8DAF18E98";
 	setAttr ".t" -type "double3" 0 2.7681201830445703 0 ;
@@ -21254,7 +21254,7 @@ createNode mesh -n "Group12208Shape" -p "Group12208";
 createNode transform -s -n "persp";
 	rename -uid "86B78A04-44C9-A102-AB9C-738C29BC30EA";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.0639382519618859 2.9564144613428418 -1.3269610950459585 ;
+	setAttr ".t" -type "double3" 11.516878306678757 3.8751301803265785 -7.4045090422710551 ;
 	setAttr ".r" -type "double3" -4.6735467507576587 482.73804781152836 0 ;
 	setAttr ".rp" -type "double3" 4.5449755070592346e-16 0 0 ;
 	setAttr ".rpt" -type "double3" -2.4167376021499054e-15 -1.1490477433050807e-15 -2.4871693154980866e-15 ;
@@ -21262,7 +21262,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "6DBB2004-4CCC-5500-2BC8-6C92A6CB8D85";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 2.4618902315683155;
+	setAttr ".coi" 13.73747018566376;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
